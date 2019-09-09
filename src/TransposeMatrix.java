@@ -7,6 +7,9 @@ import java.util.Stack;
  * Instr. Shiva Garg
  */
 
+//The Time Complexity of 'rotate(int[][])' is: O(n^2)
+//The Space Complexity 'rotate(int[][])' is:
+
 public class TransposeMatrix {
 
 	public static void main(String[] args) {
@@ -47,13 +50,13 @@ public class TransposeMatrix {
 	//desired outcome for matrix1: [7,4,1],[8,5,2],[9,6,3]
 	//desired outcome for matrix2: [15,13,2,5],[14,3,4,1],[12,6,8,9],[16,7,10,11]
 	
-	static void rotate(int[][] matrix) {
+	static void rotate(int[][] matrix) { //nxnx(4 bytes) for matrix
 		
-		Stack<Integer> stack = new Stack<Integer>();
+		Stack<Integer> stack = new Stack<Integer>(); //<>bytes for stack 
 		
 		//push all columns from each row into the stack
-		for(int i = 0; i < matrix.length; i++) {
-			for(int j = 0; j < matrix[0].length; j++) {
+		for(int i = 0; i < matrix.length; i++) { //4 bytes for int i
+			for(int j = 0; j < matrix[0].length; j++) { //4 bytes for int j
 				stack.push(matrix[i][j]);
 			}
 		}
