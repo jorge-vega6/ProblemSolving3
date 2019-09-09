@@ -1,5 +1,12 @@
 import java.util.ArrayList;
 
+/**
+ * Jorge Vega
+ * Problem Solving 3 Course
+ * Prof. Nayda Santiago
+ * Instr. Shiva Garg
+ */
+
 class BuildingOutline {
   public static void main(String[] args) {
 		int[][] grid = {{2,0,4},{3,8,5},{1,5,7}};

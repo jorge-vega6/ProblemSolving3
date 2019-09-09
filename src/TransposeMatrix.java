@@ -1,5 +1,12 @@
 import java.util.Stack;
 
+/**
+ * Jorge Vega
+ * Problem Solving 3 Course
+ * Prof. Nayda Santiago
+ * Instr. Shiva Garg
+ */
+
 public class TransposeMatrix {
 
 	public static void main(String[] args) {
